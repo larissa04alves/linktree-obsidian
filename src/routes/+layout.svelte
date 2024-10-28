@@ -3,4 +3,8 @@
 	let { children } = $props();
 </script>
 
-{@render children()}
+<div
+	class="h-screen w-screen bg-[#27272A] bg-gradient-to-t from-[#101011] via-[#101329] to-[#101329]"
+>
+	{@render children()}
+</div>
