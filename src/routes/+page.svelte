@@ -1,9 +1,12 @@
 <script>
 	import { Button } from '$lib/components/ui/button';
 	import logo from '$lib/img/logo.svg';
+	import { Facebook, Instagram } from 'lucide-svelte';
+	import whatsapp from '$lib/img/whatsapp.svg';
+	import tiktok from '$lib/img/tiktok.svg';
 </script>
 
-<div class="font-urbanist flex h-full w-full flex-col items-center justify-center gap-5">
+<div class="flex h-full w-full flex-col items-center justify-center gap-5 font-urbanist">
 	<div class="flex flex-col items-center justify-center gap-5">
 		<img class="w-32" src={logo} alt="logo obsidian" />
 		<h1 class="font-bold text-white">Obsidian Studio 3D</h1>
@@ -25,5 +28,12 @@
 			>Loja no Facebook Marketplace</Button
 		>
 	</div>
-	<div></div>
+	<div class="flex gap-3">
+		<a href="https://www.instagram.com/studio.obsidian/"
+			><Instagram class="text-[#7657FA]" size={30} /></a
+		>
+		<a href="/"><Facebook class="text-[#7657FA]" size={30} /></a>
+		<a href="/"><img class="h-7 w-7" src={whatsapp} alt="whatsapp" /></a>
+		<a href="/"><img class="h-7 w-7" src={tiktok} alt="tiktok" /></a>
+	</div>
 </div>
