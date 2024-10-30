@@ -15,14 +15,14 @@
 		<Button
 			href="https://shopee.com.br/obsidianstudio?uls_trackid=514e78a700lr"
 			variant="ghost"
-			class="w-3/5 rounded-3xl bg-[#7657FA] text-white hover:bg-transparent hover:bg-gradient-to-t hover:from-[#4A018E] hover:to-[#7702E5] hover:font-bold hover:text-white md:w-1/5"
+			class="w-3/5 rounded-3xl bg-[#7657FA] text-sm font-semibold text-white hover:bg-transparent hover:bg-gradient-to-t hover:from-[#4A018E] hover:to-[#7702E5] hover:font-bold hover:text-white md:w-1/5"
 			>Loja na Shopee</Button
 		>
-		<Button
+		<!-- <Button
 			variant="ghost"
 			class="w-3/5 rounded-3xl bg-[#7657FA] text-white hover:bg-transparent hover:bg-gradient-to-t hover:from-[#4A018E] hover:to-[#7702E5] hover:font-bold hover:text-white md:w-1/5"
 			>Loja na Amazon</Button
-		>
+		> -->
 		<!-- <Button
 			variant="ghost"
 			class="w-3/5 rounded-3xl bg-[#7657FA] text-white hover:bg-transparent hover:bg-gradient-to-t hover:from-[#4A018E] hover:to-[#7702E5] hover:font-bold hover:text-white md:w-1/5"
@@ -37,6 +37,8 @@
 		<a href="https://wa.me/5555996913627?text="
 			><img class="h-7 w-7" src={whatsapp} alt="whatsapp" /></a
 		>
-		<!-- <a href="/"><img class="h-7 w-7" src={tiktok} alt="tiktok" /></a> -->
+		<a href="https://www.tiktok.com/@obsidian.studio3d?_t=8qyYnhEszKf&_r=1"
+			><img class="h-7 w-7" src={tiktok} alt="tiktok" /></a
+		>
 	</div>
 </div>
